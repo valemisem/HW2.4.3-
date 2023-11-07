@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "HW 2.4.3",
   "main": "index.js",
-  "type": "module", // I added this for import export 
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/valemisem/HW2.4.3-/issues"
   },
-  "homepage": "https://github.com/valemisem/HW2.4.3-#readme"
+  "homepage": "https://github.com/valemisem/HW2.4.3-#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
