@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "HW 2.4.3",
   "main": "index.js",
-  "type": "commonjs",
+  "type": "module",
   "scripts": {
     "test": "jest"
   },

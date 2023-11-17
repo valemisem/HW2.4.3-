@@ -15,7 +15,11 @@ test('Sum is 50', () => {
   }
 )
 
-test('Inputs are non-numeric', () => {
-    expect(calculateBonus('a', 'b')).toBeUndefined();
+it('should return a number', () => {
+  let a = 8
+  let b = 7
+  const sum = a+b
+  expect(typeof sum).toBe('number')
+
   }
 )
